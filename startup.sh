@@ -137,5 +137,5 @@ echo 'installing Dropbox'
 wget https://linux.dropbox.com/packages/ubuntu/dropbox_1.4.0_amd64.deb
 sudo dpkg -i dropbox_1.4.0_amd64.deb
 
-echo 'Make cleaning about all installation' 
+echo 'Make cleaning about installation' 
 sudo apt autoremove -y
