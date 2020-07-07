@@ -137,5 +137,9 @@ echo 'installing Dropbox'
 wget https://linux.dropbox.com/packages/ubuntu/dropbox_1.4.0_amd64.deb
 sudo dpkg -i dropbox_1.4.0_amd64.deb
 
+echo 'installing FD-FIND'
+wget https://github.com/sharkdp/fd/releases/download/v8.1.1/fd-musl_8.1.1_amd64.deb
+sudo dpkg -i fd-musl_8.1.1_amd64.deb
+
 echo 'Make cleaning about installation' 
 sudo apt autoremove -y
