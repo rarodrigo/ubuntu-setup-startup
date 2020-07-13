@@ -137,6 +137,11 @@ echo 'installing Dropbox'
 wget https://linux.dropbox.com/packages/ubuntu/dropbox_1.4.0_amd64.deb
 sudo dpkg -i dropbox_1.4.0_amd64.deb
 
+echo 'installing Cryptomator'
+sudo add-apt-repository ppa:sebastian-stenzel/cryptomator
+sudo apt-get update
+sudo apt-get install cryptomator -y
+
 echo 'installing FD-FIND'
 wget https://github.com/sharkdp/fd/releases/download/v8.1.1/fd-musl_8.1.1_amd64.deb
 sudo dpkg -i fd-musl_8.1.1_amd64.deb
